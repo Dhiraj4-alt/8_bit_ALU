@@ -9,12 +9,13 @@ The ALU supports the following 8-bit operations:
 
 - Addition
 - Subtraction
+- Multiplication
+- Division
 - Bitwise AND
 - Bitwise OR
 - Bitwise XOR
-- Logical Shift Left
-- Logical Shift Right
-- Set on Less Than (SLT)
+- Bitwise NOR
+- Bitwise NOT
 
 ## 📁 File Structure
 .
