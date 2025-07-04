@@ -1,4 +1,4 @@
-# 8-bit ALU in Verilog
+# 🧮 8-bit ALU in Verilog
 A simple 8 bit Arthmetic Logic Unit implemented in Verilog supporting basic operations like addition subtraction multiplication ,AND,OR,NAND,NOR etc.
 
 This repository contains Verilog code for an 8-bit Arithmetic Logic Unit (ALU), designed and simulated on [EDA Playground](https://www.edaplayground.com/). The ALU was tested using **Icarus Verilog** as the simulator, and waveforms were viewed using **GTKWave**.
@@ -18,6 +18,7 @@ The ALU supports the following 8-bit operations:
 - Bitwise NOT
 
 ## 📁 File Structure
+```
 .
 ├── alu8bit.v # ALU module (core logic)
 ├── tb_alu8bit.v # Testbench used for simulation
@@ -25,7 +26,7 @@ The ALU supports the following 8-bit operations:
 ├── alu8bit_waveform.png # ALU output waveform generated
 ├── README.md # Project documentation
 └── .gitignore # Git ignore file
-
+```
 
 ## 🛠️ Tools Used
 
@@ -57,6 +58,9 @@ This project is open-source and available under the [MIT License].
 ### 👨‍💻 Author
 
 Dhiraj Sharma M S – [GitHub Profile](https://github.com/Dhiraj4-alt)
+
+**Tags**:#verilog #8bitALU #8bit
+#ALU #IracusVerilog
 
 
 
