@@ -59,8 +59,8 @@ This project is open-source and available under the [MIT License].
 
 Dhiraj Sharma M S – [GitHub Profile](https://github.com/Dhiraj4-alt)
 
-**Tags**:#verilog #8bitALU #8bit
-#ALU #IracusVerilog
+**Tags**:`#verilog` `#8bitALU` `#8bit`
+`#ALU` `#IracusVerilog`
 
 
 
