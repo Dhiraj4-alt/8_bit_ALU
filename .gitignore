@@ -1,22 +1,91 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# Verilog simulation and synthesis tool files
+*.vcd
+*.saif
+*.svf
+*.log
+*.wlf
+*.ucdb
+*.asdb
+*.jou
+*.pb
+*.sim
+*.bit
+*.fpg
+*.mif
+*.hex
+*.elf
+*.mem
+
+# Quartus
+db/
+incremental_db/
+output_files/
+*.qws
+*.rpt
+*.smsg
+*.summary
+*.qsf~
+*.qpf~
+
+# Vivado
+*.xpr
+*.xpr~
+*.runs/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.cache/
+*.webtalk/
+*.jou
+*.log
+*.str
+*.xml
+*.vivado.log
+
+# ModelSim/QuestaSim
+*.wlf
+*.mti
+*.ini
+transcript
+vsim.wlf
+work/
+modelsim.ini
+
+# Xilinx SDK
+*.sdk/
+*.hdf
+
+# General
+*.bak
+*.tmp
+*.swp
+*.swo
+*.swn
+*.db
+*.obj
+*.exe
+*.o
+*.bin
+*.log
+*.out
+*.vvp
+
+# macOS and Linux system files
+.DS_Store
+Thumbs.db
+*.~undo-tree*
+
+# Ignore user-specific files
+*.user
+*.class
+*.pyc
+.idea/
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+
+# If using Python or scripts
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Lock files
+*.lock
